@@ -1,0 +1,139 @@
+.auth-container {
+    height: 100vh;
+    background: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 80%;
+    max-width: 1200px;
+}
+.right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section {
+    width: 50%;
+    position: relative;
+    height: 100%;
+    margin-bottom: 150px;
+}
+
+.illustration {
+    position: absolute;
+    top: 150%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.input-field {
+    padding: 10px 10px;
+    width: 300px;
+    background-color: #f0efff;
+    border: none;
+
+    &::placeholder {
+        color: #a7a3ff;
+    }
+
+    &:hover,
+    &:focus {
+        outline: none;
+        border: none;
+        background-color: #f0efff;
+    }
+}
+
+.login-button {
+    background-color: #4d47c3;
+    color: white;
+    padding: 20px 20px;
+
+    &:hover {
+        background-color: #070718;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.brand {
+    color: #ff3366;
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.register-text {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.register-link {
+    color: #5d5dfc;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.forgot-password {
+    display: block;
+    text-align: right;
+    margin-bottom: 10px;
+    color: #777;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.or-text {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #777;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 32px;
+    cursor: pointer;
+    color: #444;
+    transition: color 0.3s;
+}
+
+.icon:hover {
+    color: #5d5dfc;
+}

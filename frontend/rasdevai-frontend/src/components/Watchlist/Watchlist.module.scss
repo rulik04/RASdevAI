@@ -1,0 +1,40 @@
+.watchlistItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    border-bottom: 2px solid #e2e1e1;
+
+    cursor: pointer;
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.stockCardHeader {
+    display: flex;
+    align-items: center;
+}
+
+.watchlistLogo {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.watchlistName {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.watchlistTicker {
+    color: gray;
+}
+
+.stockCardFooter,
+.watchlistChange {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}

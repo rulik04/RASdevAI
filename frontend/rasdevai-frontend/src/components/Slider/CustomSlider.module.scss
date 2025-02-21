@@ -1,0 +1,30 @@
+.custom-arrow {
+    width: 44px;
+    height: 44px;
+    background-color: #6425fe;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: #4e1ccc;
+    }
+    z-index: 20;
+    margin: 0 25px;
+}
+
+.custom-arrow::before,
+.custom-arrow::after {
+    content: none;
+}
+
+.prev-arrow,
+.next-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: 10px;
+}

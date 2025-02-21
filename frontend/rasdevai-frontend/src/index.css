@@ -1,0 +1,28 @@
+body {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#root {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+}
+
+:root {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: local("Montserrat"),
+        url("./fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("ttf");
+    font-weight: 400;
+}

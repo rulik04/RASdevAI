@@ -1,0 +1,54 @@
+.stock-card {
+    background-color: #a6f7e2;
+
+    width: 250px;
+    margin: 8px;
+    .ant-card-body {
+        padding: 12px;
+    }
+    .stock-card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .stock-card-logo {
+            display: flex;
+            align-items: center;
+            img {
+                width: 32px;
+                height: 32px;
+                margin-right: 8px;
+                object-fit: contain;
+            }
+            span {
+                font-weight: 500;
+            }
+        }
+        .stock-card-ticker {
+            text-align: right;
+            div:first-child {
+                font-weight: bold;
+            }
+            div:last-child {
+                font-size: 14px;
+            }
+        }
+    }
+    .stock-card-body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 12px;
+        .stock-card-info {
+            display: flex;
+            flex-direction: column;
+            font-size: 14px;
+            div {
+                margin-top: 4px;
+            }
+        }
+        .stock-card-chart {
+            width: 100px;
+            height: 50px;
+        }
+    }
+}
